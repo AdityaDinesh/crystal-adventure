@@ -1,0 +1,13 @@
+D:\Visual Projects\Crystal Adventure\Crystal_TBA_Tools\Crystal_TBA_Tools\bin\Debug\Crystal_TBA_Tools.exe.config
+D:\Visual Projects\Crystal Adventure\Crystal_TBA_Tools\Crystal_TBA_Tools\bin\Debug\Crystal_TBA_Tools.exe
+D:\Visual Projects\Crystal Adventure\Crystal_TBA_Tools\Crystal_TBA_Tools\bin\Debug\Crystal_TBA_Tools.pdb
+D:\Visual Projects\Crystal Adventure\Crystal_TBA_Tools\Crystal_TBA_Tools\bin\Debug\Json.Net.dll
+D:\Visual Projects\Crystal Adventure\Crystal_TBA_Tools\Crystal_TBA_Tools\bin\Debug\Newtonsoft.Json.dll
+D:\Visual Projects\Crystal Adventure\Crystal_TBA_Tools\Crystal_TBA_Tools\bin\Debug\Newtonsoft.Json.xml
+D:\Visual Projects\Crystal Adventure\Crystal_TBA_Tools\Crystal_TBA_Tools\obj\Debug\Crystal_TBA_Tools.csprojAssemblyReference.cache
+D:\Visual Projects\Crystal Adventure\Crystal_TBA_Tools\Crystal_TBA_Tools\obj\Debug\Crystal_TBA_Tools.Form1.resources
+D:\Visual Projects\Crystal Adventure\Crystal_TBA_Tools\Crystal_TBA_Tools\obj\Debug\Crystal_TBA_Tools.Properties.Resources.resources
+D:\Visual Projects\Crystal Adventure\Crystal_TBA_Tools\Crystal_TBA_Tools\obj\Debug\Crystal_TBA_Tools.csproj.GenerateResource.cache
+D:\Visual Projects\Crystal Adventure\Crystal_TBA_Tools\Crystal_TBA_Tools\obj\Debug\Crystal_TBA_Tools.csproj.CopyComplete
+D:\Visual Projects\Crystal Adventure\Crystal_TBA_Tools\Crystal_TBA_Tools\obj\Debug\Crystal_TBA_Tools.exe
+D:\Visual Projects\Crystal Adventure\Crystal_TBA_Tools\Crystal_TBA_Tools\obj\Debug\Crystal_TBA_Tools.pdb

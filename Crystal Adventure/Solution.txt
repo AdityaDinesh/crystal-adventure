@@ -1,0 +1,71 @@
+Solution:
+
+pick torch
+go south (till area Beach)
+pick key
+go north
+go west
+y
+pick bridge pass
+go east (till Bridge)
+y
+go east
+go south (till Treehouse)
+pick gold
+go north (till Bridge)
+go east
+y
+pick toxic acid
+go west
+go north
+attack toxic acid (till Bison dies)
+go north
+y
+attack toxic acid (till zeroara dies)
+pick rope 
+go east
+y
+go east
+go north
+attack topaz (till dragonair dies)
+go north
+go east
+pick flaslight
+pick wind slicer
+go west 
+go north
+y
+go north
+attack sapphire (till grevile dies)
+go east (till Maze 02)
+go south
+attack wind slicer
+go west
+go south
+go east 
+go south
+go west
+attack wind slicer
+go west
+pick lever part
+go east (till Maze 16)
+go north (till Maze 19)
+go south
+go west
+go north
+go east
+attack wind slicer
+go east
+y
+go east (till Ruby Volcano)
+attack emerald (till magmarock dies)
+go south
+y
+attack ruby (till articuno dies)
+go north
+go north
+y
+attack diamond (till lucario dies)
+go west
+y
+attack amethyst (till arceus dies)

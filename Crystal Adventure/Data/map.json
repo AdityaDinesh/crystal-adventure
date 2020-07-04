@@ -1,0 +1,1725 @@
+[
+  {
+    "id": 0,
+    "name": "Home",
+    "accessible": true,
+    "accessibleCondition": "",
+    "accessItem": "",
+    "nextLoc": [
+      100,
+      100,
+      100,
+      1
+    ],
+    "description": "This is your home where you spent your entire childhood with you and your sister. There is only one path 'south' from here",
+    "items": [
+      "torch",
+      "compass"
+    ],
+    "enemies": {
+      "name": "",
+      "health": 0,
+      "damage": 0,
+      "weapon": ""
+    }
+  },
+  {
+    "id": 1,
+    "name": "Light House Area",
+    "accessible": true,
+    "accessibleCondition": "",
+    "accessItem": "",
+    "nextLoc": [
+      0,
+      2,
+      3,
+      4
+    ],
+    "description": "This area used to be a famous port long ago but due to unexpected weather conditions they had to shut it down. There is a tall lighthouse to your west, a path leads south to the beach and a there is also a path to the east",
+    "items": [],
+    "enemies": {
+      "name": "",
+      "health": 0,
+      "damage": 0,
+      "weapon": ""
+    }
+  },
+  {
+    "id": 2,
+    "name": "Light House",
+    "accessible": false,
+    "accessibleCondition": "You need a key to enter this area",
+    "accessItem": "key",
+    "nextLoc": [
+      100,
+      100,
+      1,
+      100
+    ],
+    "description": "This Light house helped a lot of sailors to find their way through. There is only one path leading east from here",
+    "items": [
+      "bridge pass"
+    ],
+    "enemies": {
+      "name": "",
+      "health": 0,
+      "damage": 0,
+      "weapon": ""
+    }
+  },
+  {
+    "id": 3,
+    "name": "Bridge ",
+    "accessible": false,
+    "accessibleCondition": "You need a bridge pass to go to the other side of the bridge",
+    "accessItem": "bridge pass",
+    "nextLoc": [
+      100,
+      1,
+      6,
+      5
+    ],
+    "description": "This Bridge was built across river Indus for trading purposes 50 years ago. There is a path leading east to the other side of the bridge. On the 'west' is the Light House Area and to the 'south' is the Beach. ",
+    "items": [],
+    "enemies": {
+      "name": "",
+      "health": 0,
+      "damage": 0,
+      "weapon": ""
+    }
+  },
+  {
+    "id": 4,
+    "name": "Beach",
+    "accessible": true,
+    "accessibleCondition": "",
+    "accessItem": "",
+    "nextLoc": [
+      1,
+      100,
+      5,
+      100
+    ],
+    "description": "The mesmerizing view, and the soothing wind makes you want to stay for a while. A way leads 'north' to the Light House Area and a path leads east to the Bridge\n",
+    "items": [
+      "key"
+    ],
+    "enemies": {
+      "name": "",
+      "health": 0,
+      "damage": 0,
+      "weapon": ""
+    }
+  },
+  {
+    "id": 5,
+    "name": "Shop",
+    "accessible": true,
+    "accessibleCondition": "",
+    "accessItem": "",
+    "nextLoc": [
+      3,
+      4,
+      100,
+      100
+    ],
+    "description": "You see a small shop which seems to be out of order. Looks like business is not good nowadays here. That damned willy creature is behind this.",
+    "items": [],
+    "enemies": {
+      "name": "",
+      "health": 0,
+      "damage": 0,
+      "weapon": ""
+    }
+  },
+  {
+    "id": 6,
+    "name": "Bridge",
+    "accessible": true,
+    "accessibleCondition": "",
+    "accessItem": "",
+    "nextLoc": [
+      7,
+      3,
+      8,
+      9
+    ],
+    "description": "On this side of the bridge is an intersection with a board which reads \"North -> Mini Valley, East -> Flea Market, South->Rainbow Gardens\"",
+    "items": [],
+    "enemies": {
+      "name": "",
+      "health": 0,
+      "damage": 0,
+      "weapon": ""
+    }
+  },
+  {
+    "id": 7,
+    "name": "Mini Valley",
+    "accessible": true,
+    "accessibleCondition": "",
+    "accessItem": "",
+    "nextLoc": [
+      10,
+      100,
+      11,
+      6
+    ],
+    "description": "This area is called Mini Valley because it is surrounded by four mountains named Mini Mountains. There is a mine called Topaz to the 'north'. a path to leads to the east as well towards a lake. The bridge to cross river Indus is on the 'south'.",
+    "items": [],
+    "enemies": {
+      "name": "bison",
+      "health": 35,
+      "damage": 25,
+      "weapon": "horns"
+    }
+  },
+  {
+    "id": 8,
+    "name": "Flea Market",
+    "accessible": false,
+    "accessibleCondition": "You need gold to enter the Flea Market",
+    "accessItem": "gold",
+    "nextLoc": [
+      11,
+      6,
+      100,
+      12
+    ],
+    "description": "A flourishing market filled with intuiative vendors. These guys know what you need and sell them at reasonable price. Rumours say you can only see the items that you need and rest becomes invisible. And moreover once you enter this area you lose your gold too. Ouch!",
+    "items": [
+      "toxic acid"
+    ],
+    "enemies": {
+      "name": "",
+      "health": 0,
+      "damage": 0,
+      "weapon": ""
+    }
+  },
+  {
+    "id": 9,
+    "name": "Tree House Area",
+    "accessible": true,
+    "accessibleCondition": "",
+    "accessItem": "",
+    "nextLoc": [
+      6,
+      100,
+      12,
+      13
+    ],
+    "description": "You see a treehouse with a ladder to access it to the south. There are two paths from here in the north and east direction leading to the Bridge and Rainbow gardens respectively",
+    "items": [],
+    "enemies": {
+      "name": "",
+      "health": 0,
+      "damage": 0,
+      "weapon": ""
+    }
+  },
+  {
+    "id": 10,
+    "name": "Topaz Mines",
+    "accessible": false,
+    "accessibleCondition": "These mines are quite dark. You need a torch to enter the mines",
+    "accessItem": "torch",
+    "nextLoc": [
+      100,
+      100,
+      11,
+      7
+    ],
+    "description": "Legend says that the one of the Six Elemental Crystals 'Topaz' was created in this region millions of years ago. It has the power of the element Earth. You can go 'east, towards Trappy Rocks or go 'south' towards Mini Valley",
+    "items": [
+      "rope"
+    ],
+    "enemies": {
+      "name": "zeraora",
+      "health": 100,
+      "damage": 40,
+      "weapon": "boulder bash"
+    }
+  },
+  {
+    "id": 11,
+    "name": "Trappy Rocks",
+    "accessible": false,
+    "accessibleCondition": "The rocks over the Silva Lake are not quite stable. Find a rope to get through",
+    "accessItem": "rope",
+    "nextLoc": [
+      100,
+      7,
+      14,
+      100
+    ],
+    "description": "You are surrounded by the beautiful Silva lake. Sadly the only way to go across is through these unstable rocks towards the other side on the 'east'.",
+    "items": [],
+    "enemies": {
+      "name": "",
+      "health": 0,
+      "damage": 0,
+      "weapon": ""
+    }
+  },
+  {
+    "id": 12,
+    "name": "Rainbow Garden",
+    "accessible": true,
+    "accessibleCondition": "",
+    "accessItem": "",
+    "nextLoc": [
+      8,
+      9,
+      15,
+      100
+    ],
+    "description": "This beautiful garden has all the true seven colours of a rainbow. Filled withwonderful range of artistic flora and fauna this place surely depicys nature to its best! A bridge exists towards the east along Dead sea. A path to the north and west can be seen as well",
+    "items": [],
+    "enemies": {
+      "name": "thief",
+      "health": 40,
+      "damage": 20,
+      "weapon": "dagger"
+    }
+  },
+  {
+    "id": 13,
+    "name": "Treehouse",
+    "accessible": true,
+    "accessibleCondition": "",
+    "accessItem": "",
+    "nextLoc": [
+      9,
+      100,
+      100,
+      100
+    ],
+    "description": "It's a cozy little treehouse made by some traveller for shelter. Seeing its conditon the traveller might have left this place a long time ago. You can only go towards north from here",
+    "items": [
+      "gold"
+    ],
+    "enemies": {
+      "name": "",
+      "health": 0,
+      "damage": 0,
+      "weapon": ""
+    }
+  },
+  {
+    "id": 14,
+    "name": "Trappy Rocks",
+    "accessible": true,
+    "accessibleCondition": "",
+    "accessItem": "",
+    "nextLoc": [
+      16,
+      11,
+      100,
+      17
+    ],
+    "description": "You are on the eastern side of Trappy Rocks. There is a path leading 'north' to the beautiful Sapphire Falls. Acroos the lake on the 'southern' side is the Flea Market",
+    "items": [],
+    "enemies": {
+      "name": "",
+      "health": 0,
+      "damage": 0,
+      "weapon": ""
+    }
+  },
+  {
+    "id": 15,
+    "name": "Rusty Bridge",
+    "accessible": false,
+    "accessibleCondition": "You need a bridge pass to get through",
+    "accessItem": "bridge pass",
+    "nextLoc": [
+      100,
+      12,
+      18,
+      100
+    ],
+    "description": "Quite an old bridge, Quite rusty and a very Quite place connecting two shores over Lake Quiet. ",
+    "items": [],
+    "enemies": {
+      "name": "",
+      "health": 0,
+      "damage": 0,
+      "weapon": ""
+    }
+  },
+  {
+    "id": 16,
+    "name": "Sapphire Falls",
+    "accessible": true,
+    "accessibleCondition": "",
+    "accessItem": "",
+    "nextLoc": [
+      19,
+      100,
+      100,
+      14
+    ],
+    "description": "Legends say that the water from this fall was used to make the elemental crystal 'Sapphire'. It has the power of the element water. You can cross specific water bodies using it. There is a path leading 'north' to Zero Crater and a path leading 'south' to Trappy Rocks",
+    "items": [],
+    "enemies": {
+      "name": "dragonair",
+      "health": 100,
+      "damage": 40,
+      "weapon": "water blast"
+    }
+  },
+  {
+    "id": 17,
+    "name": "Silva Lake",
+    "accessible": false,
+    "accessibleCondition": "You need the crystal sapphire cross Lake Siva",
+    "accessItem": "sapphire",
+    "nextLoc": [
+      14,
+      100,
+      100,
+      8
+    ],
+    "description": "Legends say that the water from this fall was used to make the elemental crystal 'Sapphire'.",
+    "items": [],
+    "enemies": {
+      "name": "",
+      "health": 0,
+      "damage": 0,
+      "weapon": ""
+    }
+  },
+  {
+    "id": 18,
+    "name": "Rusty Bridge",
+    "accessible": true,
+    "accessibleCondition": "",
+    "accessItem": "",
+    "nextLoc": [
+      20,
+      15,
+      100,
+      100
+    ],
+    "description": "There is a path leading 'north' towards a desert and a way 'west' towards Rainbow Gardens",
+    "items": [],
+    "enemies": {
+      "name": "",
+      "health": 0,
+      "damage": 0,
+      "weapon": ""
+    }
+  },
+  {
+    "id": 14,
+    "name": "Trappy Rocks",
+    "accessible": true,
+    "accessibleCondition": "",
+    "accessItem": "",
+    "nextLoc": [
+      16,
+      11,
+      100,
+      17
+    ],
+    "description": "You are on the eastern side of Trappy Rocks. There is a path leading 'north' to the beautiful Sapphire Falls. Acroos the lake on the 'southern' side is the Flea Market",
+    "items": [],
+    "enemies": {
+      "name": "",
+      "health": 0,
+      "damage": 0,
+      "weapon": ""
+    }
+  },
+  {
+    "id": 15,
+    "name": "Rusty Bridge",
+    "accessible": false,
+    "accessibleCondition": "You need a bridge pass to get through",
+    "accessItem": "bridge pass",
+    "nextLoc": [
+      100,
+      12,
+      18,
+      100
+    ],
+    "description": "Quite an old bridge, Quite rusty and a very Quite place connecting two shores over Lake Quiet. ",
+    "items": [],
+    "enemies": {
+      "name": "",
+      "health": 0,
+      "damage": 0,
+      "weapon": ""
+    }
+  },
+  {
+    "id": 16,
+    "name": "Sapphire Falls",
+    "accessible": true,
+    "accessibleCondition": "",
+    "accessItem": "",
+    "nextLoc": [
+      19,
+      100,
+      100,
+      14
+    ],
+    "description": "Legends say that the water from this fall was used to make the elemental crystal 'Sapphire'.",
+    "items": [],
+    "enemies": {
+      "name": "",
+      "health": 0,
+      "damage": 0,
+      "weapon": ""
+    }
+  },
+  {
+    "id": 17,
+    "name": "Silva Lake",
+    "accessible": false,
+    "accessibleCondition": "You need the crystal sapphire cross Lake Siva",
+    "accessItem": "sapphire",
+    "nextLoc": [
+      14,
+      100,
+      100,
+      8
+    ],
+    "description": "Legends say that the water from this fall was used to make the elemental crystal 'Sapphire'.",
+    "items": [],
+    "enemies": {
+      "name": "",
+      "health": 0,
+      "damage": 0,
+      "weapon": ""
+    }
+  },
+  {
+    "id": 18,
+    "name": "Rusty Bridge",
+    "accessible": true,
+    "accessibleCondition": "",
+    "accessItem": "",
+    "nextLoc": [
+      20,
+      15,
+      100,
+      100
+    ],
+    "description": "Quite a dusty and Quite a rusty desert. A huge spare parts factory burnt down to flames here a few years back. There is a path across Dead Sea to the 'north'",
+    "items": [],
+    "enemies": {
+      "name": "",
+      "health": 0,
+      "damage": 0,
+      "weapon": ""
+    }
+  },
+  {
+    "id": 19,
+    "name": "Zero Crater",
+    "accessible": true,
+    "accessibleCondition": "",
+    "accessItem": "",
+    "nextLoc": [
+      21,
+      22,
+      23,
+      16
+    ],
+    "description": "A huge asteroid had made this crater long back. A sign board ahead reads \"N->Cave, W->Trappy Maze, E->Heaven's Shore,S->Sapphire falls\"",
+    "items": [],
+    "enemies": {
+      "name": "",
+      "health": 0,
+      "damage": 0,
+      "weapon": ""
+    }
+  },
+  {
+    "id": 20,
+    "name": "Rusty Desert",
+    "accessible": false,
+    "accessibleCondition": "You need the element crystal Sapphire to cross across Dead Sea",
+    "accessItem": "sapphire",
+    "nextLoc": [
+      24,
+      100,
+      100,
+      18
+    ],
+    "description": "Quite a dusty and Quite a rusty desert. A huge spare parts factory burnt down to flames here a few years back. There is a path across Dead Sea to the 'north'.\n",
+    "items": [],
+    "enemies": {
+      "name": "",
+      "health": 0,
+      "damage": 0,
+      "weapon": ""
+    }
+  },
+  {
+    "id": 21,
+    "name": "Cave",
+    "accessible": false,
+    "accessibleCondition": "You will need a flashlight to see iin the light",
+    "accessItem": "flashlight",
+    "nextLoc": [
+      25,
+      100,
+      100,
+      19
+    ],
+    "description": "You can clearly see the cave paintings on the wall made by prehistoric man. There is a text which reads \"water is stronger than nature\"\"nature is stronger than fire\". You can see an opening towards 'north' and 'south'. \n",
+    "items": [],
+    "enemies": {
+      "name": "",
+      "health": 0,
+      "damage": 0,
+      "weapon": ""
+    }
+  },
+  {
+    "id": 22,
+    "name": "Trappy Maze",
+    "accessible": true,
+    "accessibleCondition": "",
+    "accessItem": "",
+    "nextLoc": [
+      100,
+      26,
+      19,
+      100
+    ],
+    "description": "It's said no one ever returned from this maze. There is an entrance to the maze to the 'west' and a way 'east' to Zero Crater.\n",
+    "items": [],
+    "enemies": {
+      "name": "",
+      "health": 0,
+      "damage": 0,
+      "weapon": ""
+    }
+  },
+  {
+    "id": 23,
+    "name": "Heaven's Shore",
+    "accessible": true,
+    "accessibleCondition": "",
+    "accessItem": "",
+    "nextLoc": [
+      100,
+      19,
+      100,
+      100
+    ],
+    "description": "It's said the Heavenly Weapon \"Wind Slicer\" was forged here by the gods to destroy demons.\nYou can back in the 'west' direction.\n",
+    "items": [
+      "flashlight",
+      "wind slicer"
+    ],
+    "enemies": {
+      "name": "",
+      "health": 0,
+      "damage": 0,
+      "weapon": ""
+    }
+  },
+  {
+    "id": 24,
+    "name": "Ghost Town",
+    "accessible": false,
+    "accessibleCondition": "You need the power of sapphire to cross water bodies",
+    "accessItem": "sapphire",
+    "nextLoc": [
+      100,
+      100,
+      100,
+      20
+    ],
+    "description": "It's a very eerie place. You might wanna get out here as oon as you can. There is a way towards the 'south'.",
+    "items": [
+      "illumball"
+    ],
+    "enemies": {
+      "name": "",
+      "health": 0,
+      "damage": 0,
+      "weapon": ""
+    }
+  },
+  {
+    "id": 25,
+    "name": "Emerald Forest",
+    "accessible": true,
+    "accessibleCondition": "",
+    "accessItem": "",
+    "nextLoc": [
+      50,
+      51,
+      52,
+      21
+    ],
+    "description": "Legendary Elemental Crystal Emerald was made in this forest. It has the power to overcome fire according to some ancient relics. You see an island across the north side of the Atlas Ocean. there is a path 'west' and 'east' from here",
+    "items": [],
+    "enemies": {
+      "name": "grevile",
+      "health": 100,
+      "damage": 40,
+      "weapon": "wild vines"
+    }
+  },
+  {
+    "id": 26,
+    "name": "Maze 00",
+    "accessible": true,
+    "accessibleCondition": "",
+    "accessItem": "",
+    "nextLoc": [
+      100,
+      27,
+      22,
+      100
+    ],
+    "description": "-> West or -> East",
+    "items": [],
+    "enemies": {
+      "name": "",
+      "health": 0,
+      "damage": 0,
+      "weapon": ""
+    }
+  },
+  {
+    "id": 27,
+    "name": "Maze 01",
+    "accessible": true,
+    "accessibleCondition": "",
+    "accessItem": "",
+    "nextLoc": [
+      29,
+      28,
+      26,
+      100
+    ],
+    "description": "-> West, -> East or -> North",
+    "items": [],
+    "enemies": {
+      "name": "",
+      "health": 0,
+      "damage": 0,
+      "weapon": ""
+    }
+  },
+  {
+    "id": 28,
+    "name": "Maze 02",
+    "accessible": true,
+    "accessibleCondition": "",
+    "accessItem": "",
+    "nextLoc": [
+      100,
+      100,
+      27,
+      100
+    ],
+    "description": "-> East",
+    "items": [],
+    "enemies": {
+      "name": "devil",
+      "health": 60,
+      "damage": 30,
+      "weapon": "spear"
+    }
+  },
+  {
+    "id": 29,
+    "name": "Maze 03",
+    "accessible": true,
+    "accessibleCondition": "",
+    "accessItem": "",
+    "nextLoc": [
+      45,
+      46,
+      30,
+      27
+    ],
+    "description": "All Directions",
+    "items": [],
+    "enemies": {
+      "name": "",
+      "health": 0,
+      "damage": 0,
+      "weapon": ""
+    }
+  },
+  {
+    "id": 30,
+    "name": "Maze 04",
+    "accessible": true,
+    "accessibleCondition": "",
+    "accessItem": "",
+    "nextLoc": [
+      40,
+      29,
+      100,
+      100
+    ],
+    "description": "-> North or -> West",
+    "items": [],
+    "enemies": {
+      "name": "",
+      "health": 0,
+      "damage": 0,
+      "weapon": ""
+    }
+  },
+  {
+    "id": 40,
+    "name": "Maze 05",
+    "accessible": true,
+    "accessibleCondition": "",
+    "accessItem": "",
+    "nextLoc": [
+      41,
+      100,
+      100,
+      30
+    ],
+    "description": "-> North or -> South",
+    "items": [],
+    "enemies": {
+      "name": "devil",
+      "health": 60,
+      "damage": 30,
+      "weapon": "spear"
+    }
+  },
+  {
+    "id": 41,
+    "name": "Maze 06",
+    "accessible": true,
+    "accessibleCondition": "",
+    "accessItem": "",
+    "nextLoc": [
+      100,
+      42,
+      100,
+      40
+    ],
+    "description": "-> West or -> South",
+    "items": [],
+    "enemies": {
+      "name": "",
+      "health": 0,
+      "damage": 0,
+      "weapon": ""
+    }
+  },
+  {
+    "id": 42,
+    "name": "Maze 07",
+    "accessible": true,
+    "accessibleCondition": "",
+    "accessItem": "",
+    "nextLoc": [
+      100,
+      44,
+      41,
+      43
+    ],
+    "description": "All directions except 'North'",
+    "items": [],
+    "enemies": {
+      "name": "",
+      "health": 0,
+      "damage": 0,
+      "weapon": ""
+    }
+  },
+  {
+    "id": 43,
+    "name": "Maze 08",
+    "accessible": true,
+    "accessibleCondition": "",
+    "accessItem": "",
+    "nextLoc": [
+      42,
+      100,
+      100,
+      100
+    ],
+    "description": "-> 'North'",
+    "items": [],
+    "enemies": {
+      "name": "devil",
+      "health": 60,
+      "damage": 30,
+      "weapon": "spear"
+    }
+  },
+  {
+    "id": 44,
+    "name": "Maze 09",
+    "accessible": true,
+    "accessibleCondition": "",
+    "accessItem": "",
+    "nextLoc": [
+      100,
+      100,
+      42,
+      100
+    ],
+    "description": "-> 'East'",
+    "items": [
+      "key"
+    ],
+    "enemies": {
+      "name": "",
+      "health": 0,
+      "damage": 0,
+      "weapon": ""
+    }
+  },
+  {
+    "id": 45,
+    "name": "Maze 10",
+    "accessible": true,
+    "accessibleCondition": "",
+    "accessItem": "",
+    "nextLoc": [
+      100,
+      100,
+      100,
+      29
+    ],
+    "description": "-> 'South'",
+    "items": [],
+    "enemies": {
+      "name": "devil",
+      "health": 60,
+      "damage": 30,
+      "weapon": "spear"
+    }
+  },
+  {
+    "id": 46,
+    "name": "Maze 11",
+    "accessible": true,
+    "accessibleCondition": "",
+    "accessItem": "",
+    "nextLoc": [
+      47,
+      100,
+      29,
+      100
+    ],
+    "description": "-> 'North' or -> 'East'",
+    "items": [],
+    "enemies": {
+      "name": "devil",
+      "health": 60,
+      "damage": 30,
+      "weapon": "spear"
+    }
+  },
+  {
+    "id": 47,
+    "name": "Maze 12",
+    "accessible": true,
+    "accessibleCondition": "",
+    "accessItem": "",
+    "nextLoc": [
+      100,
+      48,
+      100,
+      46
+    ],
+    "description": "-> 'West' or -> 'South'",
+    "items": [],
+    "enemies": {
+      "name": "",
+      "health": 0,
+      "damage": 0,
+      "weapon": ""
+    }
+  },
+  {
+    "id": 48,
+    "name": "Maze 13",
+    "accessible": true,
+    "accessibleCondition": "",
+    "accessItem": "",
+    "nextLoc": [
+      49,
+      100,
+      47,
+      100
+    ],
+    "description": "-> 'North' or -> 'East'",
+    "items": [],
+    "enemies": {
+      "name": "",
+      "health": 0,
+      "damage": 0,
+      "weapon": ""
+    }
+  },
+  {
+    "id": 49,
+    "name": "Maze 14",
+    "accessible": false,
+    "accessibleCondition": "You need a key to open this door. Trying exploring the maze a little",
+    "accessItem": "key",
+    "nextLoc": [
+      53,
+      100,
+      100,
+      48
+    ],
+    "description": "-> 'North' ",
+    "items": [],
+    "enemies": {
+      "name": "",
+      "health": 0,
+      "damage": 0,
+      "weapon": ""
+    }
+  },
+  {
+    "id": 50,
+    "name": "Amethyst Island",
+    "accessible": false,
+    "accessibleCondition": "You need the power of sapphire to get across Atlas Ocean",
+    "accessItem": "sapphire",
+    "nextLoc": [
+      100,
+      54,
+      100,
+      48
+    ],
+    "description": "Legend says the Elemental Crystal Amethyst was created on these islands. It has the power to overcome the darkest of evil sorcery. A gloomy view is visible to the 'west' and the path 'south' leads to emerald forest.",
+    "items": [],
+    "enemies": {
+      "name": "lucario",
+      "health": 100,
+      "damage": 40,
+      "weapon": "lightning charge"
+    }
+  },
+  {
+    "id": 51,
+    "name": "Transylvania",
+    "accessible": true,
+    "accessibleCondition": "",
+    "accessItem": "",
+    "nextLoc": [
+      100,
+      55,
+      25,
+      100
+    ],
+    "description": "There many castles in these area which are said to be the abode of vampires. A path leads to the 'west' and 'east'.",
+    "items": [],
+    "enemies": {
+      "name": "vampire",
+      "health": 60,
+      "damage": 35,
+      "weapon": "bite"
+    }
+  },
+  {
+    "id": 52,
+    "name": "Trappy Maze 2",
+    "accessible": true,
+    "accessibleCondition": "",
+    "accessItem": "",
+    "nextLoc": [
+      100,
+      25,
+      56,
+      100
+    ],
+    "description": "This maze sign reads \"broken parts fixed; a way is fixed\". The entrance of maze is to the 'east' and a path leads 'west' to emerald forest",
+    "items": [],
+    "enemies": {
+      "name": "",
+      "health": 0,
+      "damage": 0,
+      "weapon": ""
+    }
+  },
+  {
+    "id": 53,
+    "name": "Trappy Maze End",
+    "accessible": true,
+    "accessibleCondition": "",
+    "accessItem": "",
+    "nextLoc": [
+      55,
+      100,
+      100,
+      49
+    ],
+    "description": "This is the end of \"Trappy Maze\". Well done!. There is a path leading 'north' and a path leading 'south' to the maze",
+    "items": [],
+    "enemies": {
+      "name": "",
+      "health": 0,
+      "damage": 0,
+      "weapon": ""
+    }
+  },
+  {
+    "id": 54,
+    "name": "Sinister Caverns",
+    "accessible": false,
+    "accessibleCondition": "You need the power of crystal amethyst to get through",
+    "accessItem": "amethyst",
+    "nextLoc": [
+      100,
+      100,
+      100,
+      100
+    ],
+    "description": "The Final Area",
+    "items": [],
+    "enemies": {
+      "name": "arceus",
+      "health": 100,
+      "damage": 45,
+      "weapon": "death beam"
+    }
+  },
+  {
+    "id": 55,
+    "name": "Wastelands",
+    "accessible": true,
+    "accessibleCondition": "",
+    "accessItem": "",
+    "nextLoc": [
+      54,
+      100,
+      51,
+      53
+    ],
+    "description": "It's a wasteland the name says everything, but why was a ghost here. STRANGE!!!. You can see a gloomy view across the 'northern' side and you can hear the sound of bats coming from the 'east'",
+    "items": [],
+    "enemies": {
+      "name": "ghost monster",
+      "health": 100,
+      "damage": 40,
+      "weapon": "chilly scare"
+    }
+  },
+  {
+    "id": 56,
+    "name": "Maze 01",
+    "accessible": true,
+    "accessibleCondition": "",
+    "accessItem": "",
+    "nextLoc": [
+      100,
+      52,
+      57,
+      100
+    ],
+    "description": "-> 'West' or ->'East'",
+    "items": [],
+    "enemies": {
+      "name": "",
+      "health": 0,
+      "damage": 0,
+      "weapon": ""
+    }
+  },
+  {
+    "id": 57,
+    "name": "Maze 02",
+    "accessible": true,
+    "accessibleCondition": "",
+    "accessItem": "",
+    "nextLoc": [
+      100,
+      56,
+      100,
+      58
+    ],
+    "description": "-> 'West' or ->'South'",
+    "items": [],
+    "enemies": {
+      "name": "",
+      "health": 0,
+      "damage": 0,
+      "weapon": ""
+    }
+  },
+  {
+    "id": 58,
+    "name": "Maze 03",
+    "accessible": true,
+    "accessibleCondition": "",
+    "accessItem": "",
+    "nextLoc": [
+      57,
+      31,
+      100,
+      59
+    ],
+    "description": "->'North', 'West' or ->'South'",
+    "items": [],
+    "enemies": {
+      "name": "",
+      "health": 0,
+      "damage": 0,
+      "weapon": ""
+    }
+  },
+  {
+    "id": 31,
+    "name": "Maze 04",
+    "accessible": true,
+    "accessibleCondition": "",
+    "accessItem": "",
+    "nextLoc": [
+      32,
+      100,
+      58,
+      100
+    ],
+    "description": "->'North' or -> 'East'",
+    "items": [],
+    "enemies": {
+      "name": "",
+      "health": 0,
+      "damage": 0,
+      "weapon": ""
+    }
+  },
+  {
+    "id": 32,
+    "name": "Maze 05",
+    "accessible": true,
+    "accessibleCondition": "",
+    "accessItem": "",
+    "nextLoc": [
+      100,
+      100,
+      33,
+      31
+    ],
+    "description": "->'South' or -> 'East'",
+    "items": [],
+    "enemies": {
+      "name": "",
+      "health": 0,
+      "damage": 0,
+      "weapon": ""
+    }
+  },
+  {
+    "id": 33,
+    "name": "Maze 06",
+    "accessible": true,
+    "accessibleCondition": "",
+    "accessItem": "",
+    "nextLoc": [
+      100,
+      32,
+      100,
+      34
+    ],
+    "description": "->'South' or -> 'West'",
+    "items": [],
+    "enemies": {
+      "name": "",
+      "health": 0,
+      "damage": 0,
+      "weapon": ""
+    }
+  },
+  {
+    "id": 34,
+    "name": "Maze 07",
+    "accessible": true,
+    "accessibleCondition": "",
+    "accessItem": "",
+    "nextLoc": [
+      33,
+      35,
+      100,
+      100
+    ],
+    "description": "->'North' or -> 'West'",
+    "items": [],
+    "enemies": {
+      "name": "",
+      "health": 0,
+      "damage": 0,
+      "weapon": ""
+    }
+  },
+  {
+    "id": 35,
+    "name": "Maze 08",
+    "accessible": true,
+    "accessibleCondition": "",
+    "accessItem": "",
+    "nextLoc": [
+      100,
+      100,
+      34,
+      100
+    ],
+    "description": "->'East'",
+    "items": [],
+    "enemies": {
+      "name": "devil",
+      "health": 60,
+      "damage": 30,
+      "weapon": "spear"
+    }
+  },
+  {
+    "id": 59,
+    "name": "Maze 09",
+    "accessible": true,
+    "accessibleCondition": "",
+    "accessItem": "",
+    "nextLoc": [
+      58,
+      60,
+      100,
+      100
+    ],
+    "description": "->'North' or -> 'West'",
+    "items": [],
+    "enemies": {
+      "name": "devil",
+      "health": 60,
+      "damage": 30,
+      "weapon": "spear"
+    }
+  },
+  {
+    "id": 60,
+    "name": "Maze 10",
+    "accessible": true,
+    "accessibleCondition": "",
+    "accessItem": "",
+    "nextLoc": [
+      100,
+      100,
+      59,
+      61
+    ],
+    "description": "->'East' or -> 'South'",
+    "items": [],
+    "enemies": {
+      "name": "",
+      "health": 0,
+      "damage": 0,
+      "weapon": ""
+    }
+  },
+  {
+    "id": 61,
+    "name": "Maze 11",
+    "accessible": true,
+    "accessibleCondition": "",
+    "accessItem": "",
+    "nextLoc": [
+      60,
+      100,
+      62,
+      100
+    ],
+    "description": "->'North' or -> 'East'",
+    "items": [],
+    "enemies": {
+      "name": "",
+      "health": 0,
+      "damage": 0,
+      "weapon": ""
+    }
+  },
+  {
+    "id": 62,
+    "name": "Maze 12",
+    "accessible": true,
+    "accessibleCondition": "",
+    "accessItem": "",
+    "nextLoc": [
+      100,
+      61,
+      100,
+      63
+    ],
+    "description": "->'West' or -> 'South'",
+    "items": [],
+    "enemies": {
+      "name": "",
+      "health": 0,
+      "damage": 0,
+      "weapon": ""
+    }
+  },
+  {
+    "id": 63,
+    "name": "Maze 13",
+    "accessible": true,
+    "accessibleCondition": "",
+    "accessItem": "",
+    "nextLoc": [
+      62,
+      36,
+      64,
+      100
+    ],
+    "description": "All directions except 'South'",
+    "items": [],
+    "enemies": {
+      "name": "",
+      "health": 0,
+      "damage": 0,
+      "weapon": ""
+    }
+  },
+  {
+    "id": 36,
+    "name": "Maze 14",
+    "accessible": true,
+    "accessibleCondition": "",
+    "accessItem": "",
+    "nextLoc": [
+      100,
+      37,
+      63,
+      100
+    ],
+    "description": "->'West' or -> 'East'",
+    "items": [],
+    "enemies": {
+      "name": "devil",
+      "health": 60,
+      "damage": 30,
+      "weapon": "spear"
+    }
+  },
+  {
+    "id": 37,
+    "name": "Maze 15",
+    "accessible": true,
+    "accessibleCondition": "",
+    "accessItem": "",
+    "nextLoc": [
+      100,
+      100,
+      36,
+      100
+    ],
+    "description": "-> 'East'",
+    "items": [
+      "lever part"
+    ],
+    "enemies": {
+      "name": "",
+      "health": 0,
+      "damage": 0,
+      "weapon": ""
+    }
+  },
+  {
+    "id": 64,
+    "name": "Maze 16",
+    "accessible": true,
+    "accessibleCondition": "",
+    "accessItem": "",
+    "nextLoc": [
+      65,
+      63,
+      100,
+      100
+    ],
+    "description": "->'North' or -> 'West'",
+    "items": [],
+    "enemies": {
+      "name": "",
+      "health": 0,
+      "damage": 0,
+      "weapon": ""
+    }
+  },
+  {
+    "id": 65,
+    "name": "Maze 17",
+    "accessible": true,
+    "accessibleCondition": "",
+    "accessItem": "",
+    "nextLoc": [
+      67,
+      66,
+      100,
+      64
+    ],
+    "description": "All directions except 'East'",
+    "items": [],
+    "enemies": {
+      "name": "",
+      "health": 0,
+      "damage": 0,
+      "weapon": ""
+    }
+  },
+  {
+    "id": 66,
+    "name": "Maze 18",
+    "accessible": true,
+    "accessibleCondition": "",
+    "accessItem": "",
+    "nextLoc": [
+      100,
+      100,
+      65,
+      100
+    ],
+    "description": "-> 'East'",
+    "items": [],
+    "enemies": {
+      "name": "",
+      "health": 0,
+      "damage": 0,
+      "weapon": ""
+    }
+  },
+  {
+    "id": 67,
+    "name": "Maze 19",
+    "accessible": true,
+    "accessibleCondition": "",
+    "accessItem": "",
+    "nextLoc": [
+      100,
+      68,
+      100,
+      65
+    ],
+    "description": "->'West' or -> 'South'",
+    "items": [],
+    "enemies": {
+      "name": "",
+      "health": 0,
+      "damage": 0,
+      "weapon": ""
+    }
+  },
+  {
+    "id": 68,
+    "name": "Maze 20",
+    "accessible": true,
+    "accessibleCondition": "",
+    "accessItem": "",
+    "nextLoc": [
+      100,
+      100,
+      67,
+      69
+    ],
+    "description": "->'East' or -> 'South'",
+    "items": [],
+    "enemies": {
+      "name": "",
+      "health": 0,
+      "damage": 0,
+      "weapon": ""
+    }
+  },
+  {
+    "id": 69,
+    "name": "Maze 21",
+    "accessible": true,
+    "accessibleCondition": "",
+    "accessItem": "",
+    "nextLoc": [
+      68,
+      70,
+      100,
+      100
+    ],
+    "description": "->'North' or -> 'West'",
+    "items": [],
+    "enemies": {
+      "name": "",
+      "health": 0,
+      "damage": 0,
+      "weapon": ""
+    }
+  },
+  {
+    "id": 70,
+    "name": "Maze 22",
+    "accessible": true,
+    "accessibleCondition": "",
+    "accessItem": "",
+    "nextLoc": [
+      71,
+      100,
+      69,
+      100
+    ],
+    "description": "->'North' or -> 'East'",
+    "items": [],
+    "enemies": {
+      "name": "",
+      "health": 0,
+      "damage": 0,
+      "weapon": ""
+    }
+  },
+  {
+    "id": 71,
+    "name": "Maze 23",
+    "accessible": true,
+    "accessibleCondition": "",
+    "accessItem": "",
+    "nextLoc": [
+      100,
+      100,
+      72,
+      70
+    ],
+    "description": "->'South' or -> 'East'",
+    "items": [],
+    "enemies": {
+      "name": "",
+      "health": 0,
+      "damage": 0,
+      "weapon": ""
+    }
+  },
+  {
+    "id": 72,
+    "name": "Maze 24",
+    "accessible": true,
+    "accessibleCondition": "",
+    "accessItem": "",
+    "nextLoc": [
+      100,
+      71,
+      73,
+      74
+    ],
+    "description": "All directions except 'North'",
+    "items": [],
+    "enemies": {
+      "name": "devil",
+      "health": 60,
+      "damage": 30,
+      "weapon": "spear"
+    }
+  },
+  {
+    "id": 73,
+    "name": "Maze 25",
+    "accessible": false,
+    "accessibleCondition": "You need a lever part to complete the mechanism to open the door",
+    "accessItem": "lever part",
+    "nextLoc": [
+      100,
+      72,
+      75,
+      100
+    ],
+    "description": "->'West' or -> 'East'",
+    "items": [],
+    "enemies": {
+      "name": "",
+      "health": 0,
+      "damage": 0,
+      "weapon": ""
+    }
+  },
+  {
+    "id": 74,
+    "name": "Maze 26",
+    "accessible": true,
+    "accessibleCondition": "",
+    "accessItem": "",
+    "nextLoc": [
+      72,
+      100,
+      100,
+      100
+    ],
+    "description": "-> 'North'",
+    "items": [],
+    "enemies": {
+      "name": "devil",
+      "health": 60,
+      "damage": 30,
+      "weapon": "spear"
+    }
+  },
+  {
+    "id": 75,
+    "name": "Trappy Maze 2 end",
+    "accessible": true,
+    "accessibleCondition": "",
+    "accessItem": "",
+    "nextLoc": [
+      100,
+      73,
+      76,
+      100
+    ],
+    "description": "Getting through that maze was a tough one. There is a path leading 'west' to ruby volcano and a path leading 'west' to the maze",
+    "items": [],
+    "enemies": {
+      "name": "",
+      "health": 0,
+      "damage": 0,
+      "weapon": ""
+    }
+  },
+  {
+    "id": 76,
+    "name": "Ruby Volcano",
+    "accessible": true,
+    "accessibleCondition": "",
+    "accessItem": "",
+    "nextLoc": [
+      50,
+      75,
+      100,
+      77
+    ],
+    "description": "The Legendar Crystal Ruby was created admist these volcanic mountains. There is two paths 'north' and 'south' from here.",
+    "items": [],
+    "enemies": {
+      "name": "magmarock",
+      "health": 100,
+      "damage": 40,
+      "weapon": "molten lava"
+    }
+  },
+  {
+    "id": 77,
+    "name": "Diamond Tundra",
+    "accessible": false,
+    "accessibleCondition": "You need the power of sapphire to get through",
+    "accessItem": "sapphire",
+    "nextLoc": [
+      76,
+      100,
+      100,
+      100
+    ],
+    "description": "The Legendar Crystal Diamond was created in this artic tundras. You can only go 'north' from here.",
+    "items": [],
+    "enemies": {
+      "name": "articuno",
+      "health": 100,
+      "damage": 40,
+      "weapon": "freeze ray"
+    }
+  }
+]

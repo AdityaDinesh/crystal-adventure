@@ -1,0 +1,13 @@
+D:\Visual Projects\Sem1\Crystal Adventure\Crystal Analytics\Crystal Analytics\bin\Debug\Crystal Analytics.exe.config
+D:\Visual Projects\Sem1\Crystal Adventure\Crystal Analytics\Crystal Analytics\bin\Debug\Crystal Analytics.exe
+D:\Visual Projects\Sem1\Crystal Adventure\Crystal Analytics\Crystal Analytics\bin\Debug\Crystal Analytics.pdb
+D:\Visual Projects\Sem1\Crystal Adventure\Crystal Analytics\Crystal Analytics\bin\Debug\System.Data.SQLite.dll
+D:\Visual Projects\Sem1\Crystal Adventure\Crystal Analytics\Crystal Analytics\bin\Debug\System.Data.SQLite.xml
+D:\Visual Projects\Sem1\Crystal Adventure\Crystal Analytics\Crystal Analytics\bin\Debug\System.Data.SQLite.dll.config
+D:\Visual Projects\Sem1\Crystal Adventure\Crystal Analytics\Crystal Analytics\obj\Debug\Crystal Analytics.csprojAssemblyReference.cache
+D:\Visual Projects\Sem1\Crystal Adventure\Crystal Analytics\Crystal Analytics\obj\Debug\Crystal_Analytics.Form1.resources
+D:\Visual Projects\Sem1\Crystal Adventure\Crystal Analytics\Crystal Analytics\obj\Debug\Crystal_Analytics.Properties.Resources.resources
+D:\Visual Projects\Sem1\Crystal Adventure\Crystal Analytics\Crystal Analytics\obj\Debug\Crystal Analytics.csproj.GenerateResource.cache
+D:\Visual Projects\Sem1\Crystal Adventure\Crystal Analytics\Crystal Analytics\obj\Debug\Crystal Analytics.csproj.CopyComplete
+D:\Visual Projects\Sem1\Crystal Adventure\Crystal Analytics\Crystal Analytics\obj\Debug\Crystal Analytics.exe
+D:\Visual Projects\Sem1\Crystal Adventure\Crystal Analytics\Crystal Analytics\obj\Debug\Crystal Analytics.pdb
